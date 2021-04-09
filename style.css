@@ -1,0 +1,158 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: "myfont";
+    src: url("NanumBarunGothicBold.otf");
+}
+
+a:link { color: white; text-decoration: none;}
+a:visited { color: white; text-decoration: none;}
+a:hover { color: white; text-decoration: none;}
+a:active { color: white; text-decoration: none;}
+
+.navbar {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #8390FA;
+    color: white;
+    height: 95px;
+    width: 100%;
+    padding-left: 10%;
+    position: fixed;
+    z-index: 2;
+}
+
+.menu {
+    text-align: right;
+    font-size: 30px;
+    padding-right: 20px;
+}
+
+#audio {
+    background-color: white;
+}
+
+#intro {
+    background-color: white;
+    height: 750px;
+    text-align: center;
+    font-family: Georgia, serif;
+    z-index: 1;
+}
+
+.typing1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: table-cell;
+    color: #1D2F6F;
+    font-size: 80px;
+    height: 80px;
+}
+
+.typing2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: table-cell;
+    color: #1D2F6F;
+    font-size: 40px;
+    height: 40px;
+}
+
+.typing3 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: table-cell;
+    color: #1D2F6F;
+    font-size: 38px;
+    height: 40px;
+}
+
+#story {
+    background-color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #1D2F6F;
+    font-size: 25px;
+    padding-top: 100px;
+    padding-bottom: 1%;
+    margin-bottom: 200px;
+    text-align: center;
+    z-index: 1;
+}
+
+#history {
+    color: #1D2F6F;
+    background-color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    height: 500px;
+    padding-top: 100px;
+    text-align: center;
+    z-index: 1;
+    margin-bottom: 300px;
+    position: sticky;
+    scroll-behavior: smooth;
+}
+
+#awarded {
+    color: #1D2F6F;
+    background-color: white;
+    height: 1000px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    padding-top: 100px;
+    margin-bottom: 200px;
+    padding-bottom: 1%;
+    text-align: center;
+    z-index: 1;
+}
+
+#education {
+    color: #1D2F6F;
+    background-color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    padding-top: 100px;
+    padding-bottom: 1%;
+    text-align: center;
+    z-index: 1;
+    height: 1000px;
+}
+
+#insta {
+    color: #1D2F6F;
+    background-color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    z-index: 1;
+    height: 600px;
+}
+
+.content_history {
+    padding-left: 30%;
+    text-align: left;
+}
+
+.content_award {
+    padding-left: 20%;
+    text-align: left;
+}
+
+.copyright {
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: #000000;
+    color:white;
+    padding-top: 1%;
+    height: 50px;
+}
+
+.con_story {
+    padding-left: 10%;
+    text-align: left;
+    font-size: 25px;
+}
+
+.scroll-fixed {
+    position: fixed;
+    width: 100%;
+    top: 100px;
+}
