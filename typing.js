@@ -31,8 +31,8 @@ $(function(){
             apply:false
         },
         appear:{
-          startDelay:1,
-          processDelay:0.05,
+          startDelay:1.1,
+          processDelay:0.03,
           finishDelay:10,
       },
       exit:{
@@ -54,8 +54,8 @@ $(function(){
             apply:false
         },
         appear:{
-          startDelay:3,
-          processDelay:0.05,
+          startDelay:2.5,
+          processDelay:0.03,
           finishDelay:5,
       },
       exit:{
