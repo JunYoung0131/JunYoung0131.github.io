@@ -1,8 +1,3 @@
-window.onload = function(){
-    if (location.href.indexOf('reloaded')==-1) location.replace(location.href+'?reloaded');
-    //if (parent.location.href.indexOf('reloaded')==-1) parent.location.replace(parent.location.href+'?reloaded');
-}
-
 $(function(){
   var tag = document.querySelector(".typing1");
   var app = new Hakademy.util.typing(tag, {
