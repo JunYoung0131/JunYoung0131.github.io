@@ -85,7 +85,6 @@ a:active { color: white; text-decoration: none;}
     text-align: center;
     z-index: 1;
     margin-bottom: 300px;
-    position: sticky;
     scroll-behavior: smooth;
 }
 
@@ -149,10 +148,4 @@ a:active { color: white; text-decoration: none;}
     padding-left: 10%;
     text-align: left;
     font-size: 25px;
-}
-
-.scroll-fixed {
-    position: fixed;
-    width: 100%;
-    top: 100px;
 }
