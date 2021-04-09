@@ -1,3 +1,9 @@
+if (self.name != 'reload') {
+         self.name = 'reload';
+         self.location.reload(true);
+     }
+else self.name = ''; 
+
 $(function(){
   var tag = document.querySelector(".typing1");
   var app = new Hakademy.util.typing(tag, {
