@@ -21,7 +21,16 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
 </head>
 <body>
-    <script>AOS.init()</script>
+    <script>
+    // AOS
+	var myAOS = function() {
+        AOS.init({
+            easing: 'ease-out-back',
+            duration: 1500
+        });
+    }
+    myAOS();
+    </script>
     <!-- 네브바 -->
     <div class="navbar" z-index: 2;>
         <a href="#intro"><p style="font-size: 50px;">Noh Jun Young</p></a>
