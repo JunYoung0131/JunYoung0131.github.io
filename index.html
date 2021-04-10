@@ -14,19 +14,18 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- jquery 연결 -->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="scroll_fadein.js"></script> 
     <script src="typing.js"></script> 
-    <!-- <script src="scroll_fix.js"></script>  -->
+    <script src="silde.js"></script> 
     <script src="https://cdn.jsdelivr.net/gh/hiphop5782/js@0.0.6/typing/hakademy-typing.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
 </head>
 <body>
-	<script>
+    <script>
     // AOS
 	var myAOS = function() {
         AOS.init({
             easing: 'ease-out-back',
-            duration: 1500
+            duration: 1200
         });
     }
     myAOS();
@@ -35,23 +34,25 @@
     <!-- 네브바 -->
     <div class="navbar" z-index: 2;>
         <a href="#intro"><p style="font-size: 50px;">Noh Jun Young</p></a>
-        
         <div class="menu">
             <table>
                 <tr>
-                    <td width="150px" align="center">
+                    <td width="80px" align="center">
                         <a href="#story">Story</a>
                     </td>
-                    <td width="150px" align="center">
+                    <td width="130px" align="center">
                         <a href="#history">History</a>
                     </td>
-                    <td width="150px" align="center"> 
-                        <a href="#education">Educatied</a>
+                    <td width="130px" align="center">
+                        <a href="#awarded">Awarded</a>
                     </td>
-                    <td width="150px" align="center">
+                    <td width="150px" align="center"> 
+                        <a href="#education">Educated</a>
+                    </td>
+                    <td width="130px" align="center">
                         <a href="#insta">Contact</a>        
                     </td>
-                    <td width="150px" align="center">
+                    <td width="120px" align="center">
                         <audio src="sound/Be The One (feat. Anaïk) – Vendredi.mp3" controls autoplay loop></audio>     
                     </td>
                 </tr>
@@ -59,7 +60,6 @@
         </div>
         
     </div>
-    
     <!-- 소개화면 -->
     <div id="intro"  z-index: 1;>
         <table align="center" width="90%" height="90%">
@@ -218,50 +218,88 @@
     </div>
  <!-- 경력 -->
     <div id="history">
-        <div data-aos="fade-up" data-aos-offset="200"><p style="text-align: center; font-size: 70px;">History</p></div>
+        <div class="history_text" data-aos="fade-up" data-aos-offset="200">
+            <table align="center" width="50%" height="90%">
+                <tr>
+                    <td width="40%">
+                        <img src="photo/history.png" width="20%">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p style="text-align: center; font-size: 50px;">History</p></div>                
+                    </td>
+                </tr>
+            </table>
+        </div>
         <div class="content_history">
-            <div data-aos="fade-up" data-aos-offset="300"><p style="text-align: left; font-size: 30px;">2016 ~ 2018 백석대학교 ICT 학부 정보보안 전공</p></div>
-            <div data-aos="fade-up" data-aos-offset="300"><p style="text-align: left; font-size: 30px;">2016 ~ 2018 백석대학교 정보보안 동아리 HUB</p></div>
-            <div data-aos="fade-up" data-aos-offset="300"><p style="text-align: left; font-size: 30px;">2018 백석대학교 정보보안 동아리 HUB 회장</p></div>
-            <div data-aos="fade-up" data-aos-offset="300"><p style="text-align: left; font-size: 30px;">2019 멘사 Korea 정회원</p></div>
-            <div data-aos="fade-up" data-aos-offset="300"><p style="text-align: left; font-size: 30px;">2021 ~ 국민대학교 정보보안암호수학과</p></div>
+            2016 ~ 2018 백석대학교 ICT 학부 정보보안 전공<br>
+            2016 ~ 2018 백석대학교 정보보안 동아리 HUB<br>
+            2018 백석대학교 정보보안 동아리 HUB 회장<br>
+            2019 멘사 Korea 정회원<br>
+            2021 ~ 국민대학교 정보보안암호수학과<br>
         </div>
     </div>
 <!-- 수상 -->
     <div id="awarded">
-        <div data-aos="fade-up" data-aos-offset="300"><p style="text-align: center; font-size: 70px;">Awarded</p></div>
+        <div class="awarded_text" data-aos="fade-up" data-aos-offset="300">
+            <table align="center" width="50%" height="90%">
+                <tr>
+                    <td width="40%">
+                        <img src="photo/award.png" width="20%">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p style="text-align: center; font-size: 50px;">Awarded</p></div>   
+                    </td>
+                </tr>
+            </table>
+        </div>
         <div class="content_award">
-            <div data-aos="fade-up" data-aos-offset="300"><p style="text-align: left; font-size: 30px;">2016.05.31 - 백석대학교 정보통신학부 주최 C프로그래밍 경진대회 대상</p></div>
-            <div data-aos="fade-up" data-aos-offset="300"><p style="text-align: left; font-size: 30px;">2016.11.29 - 백석대학교 정보통신학부 주최 해킹 시나리오 공모전 은상</p></div>
-            <div data-aos="fade-up" data-aos-offset="300"><p style="text-align: left; font-size: 30px;">2017.04.18 - 코드게이트 제 1회 해킹 동영상 공모전 특별상</p></div>
-            <div data-aos="fade-up" data-aos-offset="300"><p style="text-align: left; font-size: 30px;">2017.08.25 - 전국 ICT 창의성 대회 IoT 부분 동상</p></div>
-            <div data-aos="fade-up" data-aos-offset="300"><p style="text-align: left; font-size: 30px;">2017.11.30 - 백석대학교 정보통신학부 주최 해킹 시나리오 공모전 은상</p></div>
-            <div data-aos="fade-up" data-aos-offset="300"><p style="text-align: left; font-size: 30px;">2017.12.07 - 백석대학교 정보통신학부 주최 자바 프로그래밍 경진대회 금상</p></div>
-            <div data-aos="fade-up" data-aos-offset="300"><p style="text-align: left; font-size: 30px;">2018.05.30 - 백석대학교 정보통신학부 주최 C프로그래밍 경진대회 대상</p></div>
-            <div data-aos="fade-up" data-aos-offset="300"><p style="text-align: left; font-size: 30px;">2019.06.10 - 서울특별시 IT창의성대회 프로그래밍 전문가 부문 장려상</p></div>
-            <div data-aos="fade-up" data-aos-offset="300"><p style="text-align: left; font-size: 30px;">2019.08.26 - 서울특별시 ICT창의성대회 프로그래밍 전문가 부문 동상</p></div>
+            2016.05.31 - 백석대학교 정보통신학부 주최 C프로그래밍 경진대회 대상<br>
+            2016.11.29 - 백석대학교 정보통신학부 주최 해킹 시나리오 공모전 은상<br>
+            2017.04.18 - 코드게이트 제 1회 해킹 동영상 공모전 특별상<br>
+            2017.08.25 - 전국 ICT 창의성 대회 IoT 부분 동상<br>
+            2017.11.30 - 백석대학교 정보통신학부 주최 해킹 시나리오 공모전 은상<br>
+            2017.12.07 - 백석대학교 정보통신학부 주최 자바 프로그래밍 경진대회 금상<br>
+            2018.05.30 - 백석대학교 정보통신학부 주최 C프로그래밍 경진대회 대상<br>
+            2019.06.10 - 서울특별시 IT창의성대회 프로그래밍 전문가 부문 장려상<br>
+            2019.08.26 - 서울특별시 ICT창의성대회 프로그래밍 전문가 부문 동상<br>
         </div>
     </div>
  <!-- 교육 -->
     <div id="education">
-        <div data-aos="fade-up" data-aos-offset="300"><p style="text-align: center; font-size: 70px;">Educated</p></div>
-        <div class="content_award">
-            <div data-aos="fade-up" data-aos-offset="300"><p style="text-align: left; font-size: 30px;">2014.03 ~ 06 - KAIST 영재교육센터 C언어 레벨1</p></div>
-            <div data-aos="fade-up" data-aos-offset="300"><p style="text-align: left; font-size: 30px;">2014.07.24 - KAIST YOUTH Scientist CAMP 2차</p></div>
-            <div data-aos="fade-up" data-aos-offset="300"><p style="text-align: left; font-size: 30px;">2014.08.11 - KAIST 영재교육센터 C언어 레벨2</p></div>
-            <div data-aos="fade-up" data-aos-offset="300"><p style="text-align: left; font-size: 30px;">2015.01.16 - KAIST YOUTH Scientist CAMP 2차</p></div>
-            <div data-aos="fade-up" data-aos-offset="300"><p style="text-align: left; font-size: 30px;">2015.03 ~ 06 - KAIST 영재교육센터 Python 레벨1</p></div>
-            <div data-aos="fade-up" data-aos-offset="300"><p style="text-align: left; font-size: 30px;">2015.08.01 - KAIST YOUTH Scientist CAMP 2차</p></div>
-            <div data-aos="fade-up" data-aos-offset="300"><p style="text-align: left; font-size: 30px;">2016.07.28 - 정보보호 전문가 실무능력 양성 (중부정보보호지원센터 주최)</p></div>
-            <div data-aos="fade-up" data-aos-offset="300"><p style="text-align: left; font-size: 30px;">2017.02.28 - 해킹캠프</p></div>
-            <div data-aos="fade-up" data-aos-offset="300"><p style="text-align: left; font-size: 30px;">2017.06 - 코딩야학 1기 수료</p></div>
-            <div data-aos="fade-up" data-aos-offset="300"><p style="text-align: left; font-size: 30px;">2021.03 ~ - 멋쟁이사자처럼 at 국민대 9기</p></div>
+        <div class="education_text" data-aos="fade-up" data-aos-offset="300">
+            <table align="center" width="50%" height="90%">
+                <tr>
+                    <td width="40%">
+                        <img src="photo/education.png" width="20%">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p style="text-align: center; font-size: 50px;">Educated</p></div>         
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="content_education">
+            2014.03 ~ 06 - KAIST 영재교육센터 C언어 레벨1<br>
+            2014.07.24 - KAIST YOUTH Scientist CAMP 2차<br>
+            2014.08.11 - KAIST 영재교육센터 C언어 레벨2<br>
+            2015.01.16 - KAIST YOUTH Scientist CAMP 2차<br>
+            2015.03 ~ 06 - KAIST 영재교육센터 Python 레벨1<br>
+            2015.08.01 - KAIST YOUTH Scientist CAMP 2차<br>
+            2016.07.28 - 정보보호 전문가 실무능력 양성 (중부정보보호지원센터 주최)<br>
+            2017.02.28 - 해킹캠프<br>
+            2017.06 - 코딩야학 1기 수료<br>
+            2021.03 ~ - 멋쟁이사자처럼 at 국민대 9기<br>
         </div>
     </div>
  <!-- 연락처 -->
-
     <div id="insta">
-        <div data-aos="fade-up" data-aos-offset="400"><p style="text-align: center; font-size: 70px;">Contact</p></div>
+        <div data-aos="fade-up" data-aos-offset="400"><p style="text-align: center; font-size: 50px;">Contact</p></div>
         <div data-aos="fade-up" data-aos-offset="400">
             <table align="center" width="50%" height="90%">
                 <tr>
@@ -271,7 +309,8 @@
                 </tr>
                 <tr>
                     <td>
-                        <p style="text-align: center; font-size: 50px;">Instagram</p></div>                
+                        <p style="text-align: center; font-size: 30px;">Instagram</p>
+                        <p style="text-align: center; font-size: 30px;">@jun_young0131</p>                
                     </td>
                 </tr>
             </table>
